@@ -1,0 +1,30 @@
+# Python
+python/.venv/
+python/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+python/dataset/processed/
+python/dataset/splits/
+python/model/checkpoints/
+python/model/trained/
+
+# Node / Next.js
+web/node_modules/
+web/.next/
+web/out/
+web/build/
+.pnpm-store/
+
+# System / IDE
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# Large datasets and raw binaries
+data/*.zip
+data
+
+model
